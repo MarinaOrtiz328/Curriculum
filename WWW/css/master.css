@@ -1,0 +1,28 @@
+body {
+  background-image: url('../imge/fondo.jpg');
+}
+
+:root{
+  --color-texto: #447174;
+}
+
+p{
+  color: var(--color-texto);
+}
+
+#titulo{
+  color: black;
+  font-family: Georgia-serif;
+  font-style: italic;
+  font-size: xx-large;
+  background-color: white;
+}
+
+#datos{
+  color: #563f46;
+  text-align: center;
+}
+
+img[src]{
+  border: 1px solid;
+}
